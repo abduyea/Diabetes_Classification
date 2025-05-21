@@ -16,5 +16,8 @@ dependencies:
   - pip
   - nltk
   - pip:
-      - gymnasium[classic_control] # Only keeping necessary environments
+      - gymnasium[classic_control]  # Only keeping necessary environments
       - tqdm
+      - black
+      - flake8
+      - nbqa
